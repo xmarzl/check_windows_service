@@ -1,5 +1,5 @@
 # -- init
-$service_name = $args[0]
+param($service_name)
 $service_state = "not found"
 
 # -- get service state, format as list, where line > 0 (=no empty lines)
@@ -19,3 +19,4 @@ else {
     Write-Output("$service_name not found")
     Exit 1
 }
+
