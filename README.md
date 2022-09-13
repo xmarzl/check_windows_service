@@ -14,9 +14,15 @@ icinga2 is stopped.
 
 ## Installation:
 ```sh
-cd /usr/lib/nagios/plugins
-wget https://raw.githubusercontent.com/xmarzl/check_windows_service/main/check_windows_service.ps1
-chmod 750 /usr/lib/nagios/plugins/check_windows_service.ps1
+open this page: https://raw.githubusercontent.com/xmarzl/check_windows_service/main/check_windows_service.ps1
+CTRL + A, CTRL + C (Select all and copy)
+WIN + R -> insert "notepad"
+CTRL + V (paste)
+CTRL + S (save)
+Navigate to C:\ProgramFiles\ICINGA2\sbin
+Filetyp: All Files
+Filename: check_windows_service.ps1
+Press save
 ```
 ## 
 
